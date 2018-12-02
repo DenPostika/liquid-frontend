@@ -10,7 +10,7 @@ import Flash from './svg/Flash';
 import WarningIcon from './svg/WarningIcon';
 import ChartistGraph from 'react-chartist';
 
-const API_URL = 'http://localhost:8000';
+const API_URL = 'https://liquid-api.herokuapp.com';
 
 class App extends Component {
   state = {
@@ -120,7 +120,7 @@ class App extends Component {
 
     return series;
   };
-  
+
   render() {
     const { online, warning, left } = this.state;
 
