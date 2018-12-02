@@ -1,32 +1,70 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+header {
   display: flex;
-  flex-direction: column;
+  flex: 1;
   align-items: center;
+  padding-left: 60px;
+  max-height: 100px;
+  color: #fff;
+}
+
+header h1 {
+  margin-left: 10px;
+}
+
+.content {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  padding-top: 80px;
+}
+
+.container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  color: #fff;
+}
+
+.container svg {
+  align-self: center;
+}
+
+.container span {
+  display: flex;
+  align-items: center;
+}
+
+.container svg {
+  margin-right: 10px;
+}
+
+footer {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  flex-direction: column;
+  flex: 1;
+  max-height: 100px;
+  color: #fff;
+  font-weight: normal;
 }
 
-.App-link {
-  color: #61dafb;
+footer svg {
+  margin-bottom: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ct-grid {
+  stroke: #fff;
+}
+
+.ct-labels span {
+  color: #fff;
+}
+
+.chart {
+  padding-top: 30px;
+}
+
+.ct-series-a .ct-line, .ct-series-a .ct-point {
+  stroke: #69D0EF;
 }
