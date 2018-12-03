@@ -39,7 +39,7 @@ class App extends Component {
         new Date().getTime() / 1000 - new Date(data.date).getTime() / 1000;
       const minutes = timeInSec / 60;
 
-      if (minutes <= 5) {
+      if (minutes <= 1) {
         this.setState({
           online: true,
         });
